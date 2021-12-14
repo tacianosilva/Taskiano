@@ -24,4 +24,12 @@ describe("TaskController", () => {
       expect(checkTask?.id).toBe(newTask.id);
     }
   });
+  it("Close the Task", async () => {
+    const id = "32a9b0cd-e311-433d-833b-5853cedffc28";
+
+    await TaskController.setStatus(id, "close");
+    const checkTask = await TaskController.get(id);
+
+    expect(checkTask?.status).toBe("close");
+  });
 });
