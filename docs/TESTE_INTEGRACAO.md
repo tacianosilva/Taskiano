@@ -4,7 +4,7 @@ Documento criado com o objetivo de descrever os requisitos necessários e como d
  
 ## Requisitos
  
-Para execução dos testes de integração é necessário primeiro instalar o sistema de empacotamento [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) ou gerenciador de pacotes para o Node.JS [npm](https://nodejs.org/en/download/).
+Para execução dos testes de integração é necessário primeiro instalar o sistema de empacotamento [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) ou gerenciador de pacotes [npm](https://nodejs.org/en/download/) para o Node.JS .
 
 ## Execução
 
