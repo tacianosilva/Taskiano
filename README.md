@@ -26,8 +26,6 @@ O projeto Taskiano é um software de gestão de tarefas que visa a otimização 
 | Termo de Abertura de Projeto          | [Clique aqui ➡️](docs/doc-project-charter.md)                                                     |
 | Figma: Conceito e design              | [Clique aqui ➡️](https://www.figma.com/file/Mflem8uxMXESz9KeoSydEo/Platform?node-id=0%3A1)        |
 | Teste de Unidade                      | [Clique aqui ➡️](https://github.com/arthurmdros/Taskiano/blob/test_unit/docs/TESTE_UNIDADE.md)    |
-| Teste de Integração                   | [Clique aqui ➡️](https://github.com/arthurmdros/Taskiano/blob/test_unit/docs/TESTE_INTEGRACAO.md) |
-| Cobertura dos testes                  | [Clique aqui ➡️](https://github.com/arthurmdros/Taskiano/blob/test_unit/docs/COBERTURA_TESTES.md) |
 
 ## Tecnologias utilizadas para o desenvolvimento
 
