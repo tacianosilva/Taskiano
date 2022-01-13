@@ -32,27 +32,4 @@ describe("TaskController", () => {
 
     expect(checkTask?.status).toBe("close");
   });
-  it("Update Task", async () => {
-    const id = "32a9b0cd-e311-433d-833b-5853cedffc28";
-    const updatedTask = await TaskController.update(id, {
-      title: "Tarefa 666: Welcome to the Hell, where the king is the Demon",
-      number: 666,
-      remainingTime: 696969,
-      note: "# Hello Luci",
-      fixed: false,
-      priority: 6,
-      status: "open",
-      created_at: new Date(),
-      closed_in: null,
-      timer: new Date(new Date().getTime() + 666),
-      projectId: "abef7153-742f-4b20-bb42-ae772053050b",
-    });
-
-    expect(updatedTask).toBeTruthy();
-    
-    if (updatedTask?.id) {
-      const checkTask = await TaskController.get(updatedTask.id);
-      expect(checkTask?.title).toBe(updatedTask.title);
-    }
-  });
 });
