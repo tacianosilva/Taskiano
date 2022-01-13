@@ -12,6 +12,16 @@
 
 O projeto Taskiano é um software de gestão de tarefas que visa a otimização de tempo e auxilia na tomada de decisões do usuário, monitorando o ciclo de vida de cada tarefa registrada, gerando relátorios para análise de desempenho de quem executa a tarefa que foi atribuída.
 
+## Equipe
+
+| Nome                                  | Link                                                                                       |
+| ------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Roberto Costa Tupinambá               | [Clique aqui ➡️](https://github.com/RobertoCostaTupinamba)                                 |
+| Arthur dos Santos Medeiros            | [Clique aqui ➡️](https://github.com/arthurmdros)                                           |
+| Paulo Vítor de Medeiros Brito         | [Clique aqui ➡️](https://github.com/linhox)                                                |
+| Zaú Júlio Araújo Galvão               | [Clique aqui ➡️](https://github.com/zauJulio)                                              |
+
+
 ## Documentos
 
 | Nome                                  | Link                                                                                               |
