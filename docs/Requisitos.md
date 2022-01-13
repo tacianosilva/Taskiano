@@ -32,4 +32,4 @@ O projeto Taskiano é um software de gestão de tarefas que visa a otimização 
 
 Abaixo apresentamos o modelo dados (Entidade-Relacionamento) usando o **BrModelo**.
 
-![Modelo Entidade-Relacionamento](docs/images/entity_relationship_model.png)
+![Modelo Entidade-Relacionamento](images/entity_relationship_model.png)
