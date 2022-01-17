@@ -62,4 +62,28 @@ describe("TaskController", () => {
 
     expect(deletedTask).toBeFalsy();
   });
+
+  it("Close Task", async () => {
+    const newTask = await TaskController.create(dataTask);
+
+    expect(newTask).toBeTruthy();
+
+    await TaskController.setStatus(newTask.id!, "close");
+
+    const closedTask = await TaskController.get(newTask.id!);
+
+    expect(closedTask?.status).toBe("close");
+  });
+
+  it("Open Task", async () => {
+    const newTask = await TaskController.create(dataTask);
+
+    expect(newTask).toBeTruthy();
+
+    await TaskController.setStatus(newTask.id!, "open");
+
+    const openedTask = await TaskController.get(newTask.id!);
+
+    expect(openedTask?.status).toBe("open");
+  });
 });
