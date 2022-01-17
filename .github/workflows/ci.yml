@@ -45,3 +45,5 @@ jobs:
           # Additional arguments to the sonarcloud scanner
           # args: # optional
           projectBaseDir: ./taskiano
+        env:
+          SECURE_ENV: ${{ secrets.SECURE_ENV }}
