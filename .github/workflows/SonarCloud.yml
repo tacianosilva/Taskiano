@@ -20,6 +20,5 @@ jobs:
             -Dsonar.organization=zaujulio
             -Dsonar.projectKey=ZauJulio_Taskiano
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # Needed to get PR information, if any
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        
