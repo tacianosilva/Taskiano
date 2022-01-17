@@ -17,12 +17,13 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 | 05/07/2021 | 0.2.0  |                Detalhamento do User Story US02                 | Wanessa da Silva Bezerra |
 | 06/07/2021 | 0.2.1  |       Adição dos Testes de Aceitação do User Story US01        | Zaú Júlio Araújo Galvão  |
 | 16/07/2021 | 1.0.0  | Documento completo com o detalhamento de todos os User Stories |                          |
+| 17/01/2022 | 1.0.1  |            Correções no detalhamento de user stories           | Paulo Vítor              |
 
 ### User Story US01 - Manter Usuário
 
 |               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | ------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Descrição** | O sistema deve manter um cadastro de usuário que tem acesso ao sistema via login e senha. Um usuário tem os atributos name, id, email, username, data de nascimento, status, password, avatarURL. O email será o login e ele pode registrar-se diretamente no sistema, o avatarURL é um link para uma foto de seu perfil. Além disso o usuário poderá alterar alguns dados, como o e-mail ou a senha. O usuário administrador do sistema pode realizar as operações de adicionar, alterar, remover e listar os usuários comuns do sistema. |
+| **Descrição** | O sistema deve manter um cadastro de usuário que tem acesso ao sistema via login e senha. Um usuário tem os atributos name, id, email, username, data de nascimento, avatarURL. O usuário pode registrar-se no sistema através da sua rede social de escola, o avatarURL é um link para uma foto de seu perfil. Além disso o usuário poderá alterar alguns dados, como o e-mail ou a senha. O usuário administrador do sistema pode realizar as operações de adicionar, alterar, remover e listar os usuários comuns do sistema. |
 
 | **Requisitos envolvidos** |                                |
 | ------------------------- | :----------------------------- |
@@ -54,7 +55,7 @@ Este documento descreve os User Stories criados a partir da Lista de Requisitos 
 
 |               |                                                                                                                                                                                                                                    |
 | ------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Descrição** | O sistema deve manter um cadastro de tarefas. Uma tarefa tem os atributos id, fixed, name, note, super, createDate, completeDate, priority, timer. O código será a chave primeira e os atributos serão registrados pelo o usuário. |
+| **Descrição** | O sistema deve manter um cadastro de tarefas. Uma tarefa tem os atributos projectId, title, number, remainingTime, note, fixed, priority, status, created_at, closed_in, timer. O código será a chave primeira e os atributos serão registrados pelo o usuário. |
 
 | **Requisitos envolvidos** |                                           |
 | ------------------------- | :---------------------------------------- |
