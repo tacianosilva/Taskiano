@@ -1,6 +1,13 @@
 # Documento Teste de Unidade
 
-Documento criado com o objetivo de descrever os requisitos necessários e como devem ser executados os testes de unidade.
+Foi criado uma arquitetura intermediária para resolver o problema de autoacoplamento e funciona somente de maneira offline. Sendo assim, a tabela abaixo mostra quais foram os testes de unidade implementados por cada participante.
+
+| Integrante                            | Link                                                                                                 |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Roberto Costa Tupinambá               | [Test unit of User➡️](https://github.com/ZauJulio/Taskiano/blob/main/taskiano/__tests__/User.test.ts)|
+| Arthur dos Santos Medeiros            | [Test unit of Project➡️](https://github.com/ZauJulio/Taskiano/blob/main/taskiano/__tests__/Project.test.ts)|
+| Paulo Vítor de Medeiros Brito         | [Test unit of History➡️](https://github.com/ZauJulio/Taskiano/blob/main/taskiano/__tests__/History.test.ts)|
+| Zaú Júlio Araújo Galvão               | [Test unit of Task➡️](https://github.com/ZauJulio/Taskiano/blob/main/taskiano/__tests__/Task.test.ts)|
  
 ## Requisitos
  
