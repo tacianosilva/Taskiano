@@ -29,7 +29,7 @@ O projeto Taskiano é um software de gestão de tarefas que visa a otimização 
 | Plano de Iteração                     | [Clique aqui ➡️](docs/doc-iteracao.md)                                                            |
 | Documento de Visão                    | [Clique aqui ➡️](docs/doc-visao.md)                                                               |
 | Documento de Modelos                  | [Clique aqui ➡️](docs/doc-modelos.md)                                                             |
-| Lista de User Stories                 | [Clique aqui ➡️](docs/doc-userstories.md)                                                         |
+| Lista de User Stories                 | [Clique aqui ➡️](docs/USERSTORIES.md)                                                         |
 | Projeto Arquitetural do Software      | [Clique aqui ➡️](docs/doc-arq.md)                                                                 |
 | Relatório de Testes de Módulo/Sistema | [Clique aqui ➡️](docs/doc-us-tests.md)                                                            |
 | Análise de Pontos de Função - APF     | [Clique aqui ➡️](docs/doc-apf.md)                                                                 |
