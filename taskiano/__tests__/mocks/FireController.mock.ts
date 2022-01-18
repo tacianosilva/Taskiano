@@ -24,14 +24,9 @@ class FireController<T> {
   }
 
   public async Validator(data: T, schema: SchemaOf<any> = this.schema) {
-    try {
-      await schema.validate(data, {
-        abortEarly: false,
-      });
-    } catch (err: any) {
-      console.error(this._name);
-      throw new Error(err);
-    }
+    await schema.validate(data, {
+      abortEarly: false,
+    });
   }
 
   public async index(): Promise<any[]> {
