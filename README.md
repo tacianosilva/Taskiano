@@ -39,6 +39,7 @@ O projeto Taskiano é um software de gestão de tarefas que visa a otimização 
 | Teste de Unidade                      | [Clique aqui ➡️](docs/TESTE_UNIDADE.md)                                                           |
 | Teste de Integração                   | [Clique aqui ➡️](docs/TESTE_INTEGRACAO.md)                                                        |
 | Cobertura dos testes                  | [Clique aqui ➡️](docs/COBERTURA_TESTES.md)                                                        |
+| Apresentação sobre o projeto          | [Clique aqui ➡️](bit.ly/taskiano-slides)                                                          |
 
 ## Tecnologias utilizadas para o desenvolvimento
 
