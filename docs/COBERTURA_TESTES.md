@@ -13,6 +13,6 @@ Com os pacotes devidamente instalados basta executar no prompt de comando locali
   * yarn dev
   * yarn test
 
-# Observação
+## Observação
 
 Nosso sistema ainda esta em fase de mudança da sua arquitetura, atualmente seria inviável a criação das coberturas do testes 
