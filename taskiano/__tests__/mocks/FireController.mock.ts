@@ -91,8 +91,6 @@ class FireController<T> {
   }
 
   public async update(_id: string, data: T): Promise<T | undefined> {
-    await this.Validator(data);
-
     this._data = this._data.filter((_doc) => _doc.id !== _id);
     this._data.push({ ...(data as any), id: _id });
 
